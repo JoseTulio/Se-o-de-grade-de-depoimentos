@@ -1,2 +1,33 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+body {
+  background: hsl(0, 0%, 81%);
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 10px;
+  margin: 200px;
+}
+
+h1 , h2 , p {
+  Font size: 13px
+}
+
+a { 
+  color: hsl(228, 45%, 44%); 
+}
+
+footer {
+  font-size: 11px; text-align: center; 
+}
+
+
+.daniel {
+  background: hsl(263, 55%, 52%);
+  margin: 20px;
+  width: 500px;
+  height: 300px;
+  
+
+}
+
+
