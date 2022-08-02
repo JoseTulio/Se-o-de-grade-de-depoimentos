@@ -4,26 +4,34 @@ body {
 
 main {
   display: grid;
-  grid-template-columns: 200px 500px 200px;
-	grid-template-rows: 300px 300px;
+  grid-template-columns: 200px 480px 200px;
+	grid-template-rows: 250px 250px;
 	grid-template-areas:
 		"daniel jonathan kira"
     "jeanette patrick kira"
     ;
   gap: 20px;
-  font-size: x-small;
-
+  margin: 100px 180px;
 }
 
 h1 , h2 , p {
-  display: inline-block;
-  Font size: 13px;
-
+  font-size: 13px;
+  margin: 1px;
 }
 
+p {
+  display: block;
+  margin: 10px;
+}
+
+
 img {
-  height: 30px;
-  width: 30px;
+  display: inline-block;
+  border: 10px;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  margin: 20px 20px;
 }
 
 a { 
@@ -36,32 +44,35 @@ footer {
 }
 
 
+
 .daniel {
   background: hsl(263, 55%, 52%);
   grid-area: daniel;
-  width: 500px;
+  width: 480px;
+  border-radius: 10px;
+  
 }
 
 .jonathan {
   background: hsl(217, 19%, 35%);
   grid-area: jonathan;
   width: 200px;
-  margin-left: 300px;
+  margin-left: 280px;
+  border-radius: 10px;
   
 }
 
 .kira {
   background: hsl(0, 0%, 100%);
   grid-area: kira; 
+  border-radius: 10px;
 }
 
 .patrick {
   
   background: hsl(219, 29%, 14%);
   grid-area: patrick;
-  
-  
-  
+  border-radius: 10px;
 }
 
 .jeanette {
@@ -69,5 +80,6 @@ footer {
   background: hsl(0, 0%, 100%);
   grid-area: jeanette;
   width: 200px;
+  border-radius: 10px;
 }
 
